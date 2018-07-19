@@ -1,4 +1,4 @@
-# Informatik Probeklausur Aufgaben
+# Informatik II Probeklausur Aufgaben
 ### Aufgabe 1:
 1. Wie lautet der Befehl, um ein C-Programm ”wurzel.c” zu kompilieren, unter Beachtung des ANSI-Standarts?
 
