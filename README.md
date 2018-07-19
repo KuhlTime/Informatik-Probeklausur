@@ -51,7 +51,7 @@ int main()
 	while(m < 3)
 	{
 		tempChar = string[m];
-		string[m] = string[stringLength - m - 1] /* ?? */
+		string[m] = string[stringLength - m - 1]; /* ?? */
 		string[stringLength -m - 1] = tempChar;
 
 		m = sub1(m);
