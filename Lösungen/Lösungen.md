@@ -25,14 +25,14 @@ Beim Aufrufen einer Funktion erhalten die Parameter der Funktion eine temporäre
 
 Die Abkürzung RAM steht für Random-Access-Memory oder auf deutsch für den Arbeitsspeicher.
 
-     | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 
-——|——|——|——|——|——|——|——
-     | 64  | 32  | 16  | 8   | 4   | 2   | 1   
- 37  | 0   | 1   | 0   | 0   | 1   | 0   | 1   
- 89  | 1   | 0   | 1   | 1   | 0   | 0   | 1   
- AND | 0   | 0   | 0   | 0   | 0   | 0   | 1   
- OR  | 1   | 1   | 1   | 1   | 1   | 0   | 1   
- XOR | 1   | 1   | 1   | 1   | 1   | 0   | 0   
+|     | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 64  | 32  | 16  | 8   | 4   | 2   | 1   |  
+| 37  | 0   | 1   | 0   | 0   | 1   | 0   | 1   |
+| 89  | 1   | 0   | 1   | 1   | 0   | 0   | 1   |
+| AND | 0   | 0   | 0   | 0   | 0   | 0   | 1   |
+| OR  | 1   | 1   | 1   | 1   | 1   | 0   | 1   |
+| XOR | 1   | 1   | 1   | 1   | 1   | 0   | 0   |
 
 AND = 1
 OR = 125
