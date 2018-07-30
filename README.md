@@ -6,7 +6,7 @@
 
 	``` c
 	int i = 0;
-	while(i) { i++;
+	while(1) { i++;
 	printf("%d", i);
 	}
 	```
