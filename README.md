@@ -5,7 +5,7 @@
 2. Was bewirkt der folgende Quellcode?
 
 	``` c
-	int 1 = 0;
+	int i = 0;
 	while(i) { i++;
 	printf("%d", i);
 	}
