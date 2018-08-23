@@ -44,7 +44,7 @@ int sub2(char *p)
 int main()
 {
 	char String[100] = "Hallo Welt!";
-	char tempCahr;
+	char tempChar;
 	int stringLength = 11;
 	int m = 0;
 
