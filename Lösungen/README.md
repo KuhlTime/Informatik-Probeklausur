@@ -70,4 +70,40 @@ Es werden zwei Funktionen definiert. `sub1` und `sub2`.
 
 5. Wie lautet die Ausgabe von Zeile 37?
 
-- Zeile 37: `Hallo` 
+- Zeile 37: `Hallo`
+
+
+### Aufgabe 3:
+
+1. Schreiben Sie ein Programm mit dem im Diagramm festgelegten Ablauf. Die Funktion `checkTemperatur()` brauchen Sie nicht erneut zu implementieren.
+
+``` c
+#include <stdio.h>
+
+/* float checkTemperatur() */
+
+int main() {
+	float zielTemperatur = 25.0;
+	int fanspeed = 3;
+	int shutdown = 0;
+
+	while(shutdown == 0) {
+		float istTemperatur = checkTemperatur();
+		printf("\nistTemp: %f", istTemperatur);
+
+		if(istTemperatur < zielTemperatur) {
+			fanspeed--;
+		} else if (istTemperatur > zielTemperatur) {
+			fanspeed++;
+		}
+
+		printf("\nFanspeed: %i", fanspeed);
+
+		if(istTemperatur >= 70.0 || fanspeed > 10) {
+			shutdown = 1;
+		}
+	}
+
+	printf("System wird heruntergefahren...");
+}
+```
