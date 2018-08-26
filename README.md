@@ -13,7 +13,7 @@
 3. Nennen Sie die zwei fehlenden Bussysteme der „Von-Neumann-Rechnerarchitektur“:
 	* Adressbus
 	*  
-	* 
+	*
 4. Was bewirkt die folgende Zeile?
 
 	``` c
@@ -31,7 +31,7 @@ Gegeben ist das folgende Programm:
 #include <stdio.h>
 #include <string.h>
 
-int sub1(int i) 
+int sub1(int i)
 {
 	return ++i;
 }
@@ -83,7 +83,7 @@ int main()
 
 Gegeben ist folgendes Nassi-Schneiderman-Diagramm:
 
-![](https://github.com/KuhlTime/Informatik-Probeklausur/blob/master/assets/Aufgabe3.png?raw=true)
+![](https://github.com/KuhlTime/Informatik-Probeklausur/blob/master/assets/Aufgabe3.svg?raw=true)
 
 Die Funktion `checkTemperatur()` ist bereits implementiert:
 
@@ -133,4 +133,4 @@ struct student
 	char name[30];
 	float note;
 }
-``` 
+```
