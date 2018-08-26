@@ -107,3 +107,10 @@ int main() {
 	printf("System wird heruntergefahren...");
 }
 ```
+
+2. Beschrieben Sie stichpunktartig die Funktion des Programms und nennen Sie ein Beispiel wo ein solches Programm eingesetzt werden kann.
+
+- Das Programm kann als eine Steuerung für eine Ventilator betriebene Kühlung verwendet werden.
+- In dem Programm wird eine angestrebte `zielTemperatur` festgelegt. Welche das Programm durch Reglung der Lüftergeschwindigkeit versucht an zu peilen.
+- Ist die `istTemperatur` niedriger als die `zielTemperatur` so wird die Geschwindigkeit des Lüfters reduziert. Ist die `istTemperatur` jedoch größer als die `zielTemperatur` so wird die Geschwindigkeit des Lüfters hoch geregelt.
+- Sobald die `istTemperatur` über 70 steigt oder die `fanspeed` größer als 10 ist so wird das System heruntergefahren, wahrscheinlich als eine Art Überlastungsschutz.
