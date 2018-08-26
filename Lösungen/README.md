@@ -16,7 +16,7 @@ Die Variable i wird von 1 an dauerhaft hochgezählt und in die Konsole ausgegebe
 
 4. Was bewirkt die folgende Zeile?
 ``` c
-	#include <stdio.h>
+#include <stdio.h>
 ```
 
 Mit dieser Codezeile kann die stdio Library, die Standart-Input-Output Library im folgenden Programm verwendet werden.
