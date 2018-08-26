@@ -83,7 +83,7 @@ int main()
 
 Gegeben ist folgendes Nassi-Schneiderman-Diagramm:
 
-![](https://github.com/KuhlTime/Informatik-Probeklausur/blob/master/assets/Aufgabe3.svg?raw=true)
+![](https://github.com/KuhlTime/Informatik-Probeklausur/blob/master/assets/Aufgabe3.png?raw=true)
 
 Die Funktion `checkTemperatur()` ist bereits implementiert:
 
