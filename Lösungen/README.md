@@ -58,3 +58,16 @@ Es werden zwei Funktionen definiert. `sub1` und `sub2`.
 - In diesen Zeilen wird der `m`'te Character des `String` Arrays mit einem Chracter mit der selben Platzierung von hinten getauscht.
 - `m` wird einen hochgezählt.
 - Dies geschiet solange `m<3` ist.
+
+3. Wie lauten die Ausgaben von Zeilen 30 und 31?
+
+- Zeile 30: `!tllo WelaH`
+- Zeile 31: `11`
+
+4. Welche Auswirkung hat die Zeile 33 auf den Programmverlauf?
+
+- Die Zeile 33 hat keinen weiteren Einfluss auf das Programm, da die Variable `m` nicht weiter verwendet wird.
+
+5. Wie lautet die Ausgabe von Zeile 37?
+
+- Zeile 37: `Hallo` 
