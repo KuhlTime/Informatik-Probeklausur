@@ -54,3 +54,7 @@ Es werden zwei Funktionen definiert. *sub1* und *sub2*.
 - *sub2*: Die zweite Funktion *sub2* nimmt einen pointer auf einen character und setzt den Pointer auf den Nullzeiger. Von der Funktion wird erwartet, dass ein intager Wert zurück gegeben wird, was allerdings nicht passiert.
 
 2. Welche Auswirkung haben die Zeilen 21-28?
+
+- In diesen Zeilen wird der `m`'te Character des `String` Arrays mit einem Chracter mit der selben Platzierung von hinten getauscht.
+- `m` wird einen hochgezählt.
+- Dies geschiet solange `m<3` ist.
