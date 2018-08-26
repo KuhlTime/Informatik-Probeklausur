@@ -49,9 +49,9 @@ XOR = 124 <br>
 
 1. Welche Bedeutung haben die Zeilen 4-12?
 
-Es werden zwei Funktionen definiert. *sub1* und *sub2*.
-- *sub1*: Die Funktion *sub1* nimmt einen Intager Wert als Übertragungsparameter, welchen die Funktion im inneren um einen Zähler erhöht und wieder zurück gibt.
-- *sub2*: Die zweite Funktion *sub2* nimmt einen pointer auf einen character und setzt den Pointer auf den Nullzeiger. Von der Funktion wird erwartet, dass ein intager Wert zurück gegeben wird, was allerdings nicht passiert.
+Es werden zwei Funktionen definiert. `sub1` und `sub2`.
+- `sub1`: Die Funktion `sub1` nimmt einen Intager Wert als Übertragungsparameter, welchen die Funktion im inneren um einen Zähler erhöht und wieder zurück gibt.
+- `sub2`: Die zweite Funktion `sub2` nimmt einen pointer auf einen character und setzt den Pointer auf den Nullzeiger. Von der Funktion wird erwartet, dass ein intager Wert zurück gegeben wird, was allerdings nicht passiert.
 
 2. Welche Auswirkung haben die Zeilen 21-28?
 
