@@ -33,7 +33,7 @@ int main() {
 		}
 	}
 	
-	/* Studenten mit best Note ausgeben */ 
+	/* Studenten mit besten Note ausgeben */ 
 	printf("\nBesten Schüler:\n");
 	for(i=0; i < anzahl; i++) {
 		if(studenten[i].note == besteNote) {
