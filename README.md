@@ -7,7 +7,7 @@
 	``` c
 	int i = 0;
 	while(1) { i++;
-	printf("%d", i);
+		printf("%d", i);
 	}
 	```
 3. Nennen Sie die zwei fehlenden Bussysteme der „Von-Neumann-Rechnerarchitektur“:
